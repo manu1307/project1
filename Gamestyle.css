@@ -39,6 +39,7 @@ margin-top:60px;
 }
 .question {
     display: flex;
+    margin-bottom: 50px;
     
 }
 #disqus_thread{

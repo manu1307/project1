@@ -6,6 +6,24 @@
     <title>밸런스게임</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="Gamestyle.css" rel="stylesheet" type="text/css" />
+    <script>
+        
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://balancegamesc.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+      </script>
   </head>
   <body>
     <div class="nav">
@@ -30,6 +48,8 @@
         </div>
         <div class="question-item">
             <button type="button" class="btn btn-outline-dark" onclick="location.href='Game5.html'"> B버튼 누르고 50% 확률로 10억받기<br>(실패하면 0원)</button>
-        </div>         
+        </div> 
+      </div>
+        <div id="disqus_thread"></div>        
   </body>
 </html>
