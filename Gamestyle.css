@@ -1,0 +1,43 @@
+.nav {
+height:70px;
+border-bottom: 1px solid black;
+display:flex;
+align-items:center;
+}
+.company-name {
+margin-left: 20px;
+}
+.nav-right-items{
+display:flex;
+margin-left:auto;
+}
+.nav-item {
+margin-left:10px;
+margin-right: 10px;
+}
+.title {
+text-align:center;
+font-size: 3.0rem;
+font-weight:bold;
+}
+.subtitle{
+text-align:center;
+font-size: 1.25rem;
+font-weight:300;
+margin-bottom: 15px;
+}
+.main {
+width:800px;
+margin: 0 auto;
+margin-top:60px;
+}
+.btn{
+    width: 400px;
+    margin-right: 10%;
+    height: 150px;
+    font-size: 20px;
+}
+.question {
+    display: flex;
+    
+}
